@@ -1,0 +1,19 @@
+name : first workflows
+
+on :
+   push:
+     branches:
+       - main 
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Print a welcome meassage
+        run : echo "welcome to our frist github action workflows"
+      
+
+   
+    
+      
